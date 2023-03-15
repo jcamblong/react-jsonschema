@@ -11,7 +11,7 @@ import { Button } from '@mui/material';
     const [schemaData, setSchemaData] = useState({})
 
     const dataLoad = async () => {
-      setSchemaData(await formSchema('product'));
+      setSchemaData(await formSchema('brand'));
     };
 
     const onError = (errors:any) => alert(errors);
